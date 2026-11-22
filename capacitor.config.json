@@ -1,1 +1,6 @@
-{"appId":"com.fiscalfable.cfo","appName":"Fiscal Fable CFO","webDir":".","bundledWebRuntime":false}
+{
+  "appId": "com.fiscalfable.cfo",
+  "appName": "Fiscal Fable CFO",
+  "webDir": "www",
+  "bundledWebRuntime": false
+}
