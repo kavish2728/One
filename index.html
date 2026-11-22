@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta name="theme-color" content="#101d31"><title>Fiscal Fable CFO</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar"><div class="brand"><div class="mark">FF</div><div><strong>Fiscal Fable</strong><small>INTERNAL WORKSPACE</small></div></div><button class="avatar" id="profileBtn">FF</button></header>
+<main id="app" class="main">
+<section class="welcome"><p class="eyebrow">YOUR WORKSPACE</p><h1>Good day.</h1><p>Keep your team, clients, and work in sync.</p></section>
+<section class="stats"><div class="stat"><span>Clients</span><b id="clientCount">0</b></div><div class="stat"><span>Open tasks</span><b id="taskCount">0</b></div><div class="stat"><span>Reports</span><b id="reportCount">0</b></div><div class="stat"><span>Due soon</span><b id="dueCount">0</b></div></section>
+<section class="quick"><button data-view="clients"><span class="qicon">＋</span><span>Add client</span></button><button data-view="reports"><span class="qicon">▤</span><span>New report</span></button><button data-view="tasks"><span class="qicon">✓</span><span>Add task</span></button></section>
+<section class="panel"><div class="section-head"><h2>Upcoming work</h2><button class="textbtn" data-view="tasks">View all</button></div><div id="upcoming" class="empty">No upcoming tasks. Add a task to get started.</div></section>
+<section class="panel"><div class="section-head"><h2>Recent reports</h2><button class="textbtn" data-view="reports">View all</button></div><div id="recentReports" class="empty">Your saved reports will appear here.</div></section>
+</main>
+<div id="screen" class="main hidden"></div>
+<nav class="bottomnav"><button class="active" data-view="home"><span>⌂</span>Home</button><button data-view="clients"><span>♙</span>Clients</button><button data-view="reports"><span>▤</span>Reports</button><button data-view="tasks"><span>✓</span>Tasks</button><button data-view="documents"><span>▱</span>Files</button></nav>
+<div id="modal" class="modal hidden"><div class="modalbox"><button class="close" id="closeModal">×</button><div id="modalContent"></div></div></div>
+<script src="app.js"></script>
+</body></html>
